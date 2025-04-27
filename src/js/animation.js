@@ -17,7 +17,7 @@ ScrollReveal().reveal('.card-item, #btn_lab, #img_about, #btn_our_services', {
     reset: true
 });
 
-ScrollReveal().reveal('#title_lab, #title_about', {
+ScrollReveal().reveal('#title_lab, #title_about, #title_home', {
     origin: 'left',
     distance: '60px',
     opacity: 0,
@@ -25,7 +25,7 @@ ScrollReveal().reveal('#title_lab, #title_about', {
     reset: true
 });
 
-ScrollReveal().reveal('#about_icon, #img_description', {
+ScrollReveal().reveal('#about_icon, #img_description, #btn_home', {
     reset: true,
     rotate: {
         x: 50,
