@@ -38,8 +38,8 @@ ScrollReveal().reveal('#about_icon, #img_description, #btn_home', {
 
 
 ScrollReveal().reveal('.card-more', {
-    rotate: {x: 100, y: 0, z: 0},
-    duration: 2000,
+    rotate: {x: 50, y: 0, z: 0},
+    duration: 1500,
     opacity: 0.4,
     reset: true
 });

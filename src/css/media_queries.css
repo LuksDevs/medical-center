@@ -84,8 +84,31 @@
         }
     }
 }
-@media screen and (max-width: 950px) {
 
+@media screen and (max-width: 1100px) {
+    #resources {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & .cards-resources {
+            width: 50%;
+        }
+    }
+
+    #contact {
+
+        & #contact_emphasis {
+            grid-template-columns: 2fr 2fr;
+
+            & #img_contact {
+                min-width: 30%;
+                min-height: 50%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 950px) {
     #home {
         background-position: right 61.92%;
 
@@ -96,7 +119,25 @@
             }
         }
     }
+    #contact #cards_contact {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        min-height: auto;
 
+        & .contact-card:nth-child(1), .contact-card:nth-child(2) {
+            display: none;
+        }
+
+        & .contact-card {
+            ul {
+                display: flex;
+                gap: 40px;
+                list-style: none;
+
+            }
+        }
+    }
 }
 @media screen and (max-width: 890px) {
     #home {
@@ -116,7 +157,13 @@
             display: none;
         }
     }
-    
+    #our_service #content_our_service {
+        padding: 10px;
+        & #btn_our_services {
+            letter-spacing: 0px;
+            padding: 5px;
+        }
+    }
     
 }
 @media screen and (max-width: 800px) {
@@ -131,6 +178,40 @@
         & #about_icon {
             top: -5px; 
         }
+    }
+
+    #our_service {
+        display: flex;
+        flex-direction: column;
+
+        & #img_our_service_1, #img_our_service_2 {
+            display: none;
+        }
+    }
+
+    #contact {
+        
+        & #contact_emphasis {
+            display: flex;
+            & #img_contact {
+                display: none;
+
+                & img {
+                    display: none;
+                }
+            }
+
+            & #box_contact {
+                width: 100%;
+                align-items: center;
+
+                & #btn_contact {
+                    display: block;
+                    margin-inline: auto;
+                }
+            }
+        }
+        
     }
 }
 @media screen and (max-width: 750px) {
@@ -181,6 +262,21 @@
 
         & #about_icon {
             top: -25px; 
+        }
+    }
+    #contact #cards_contact {
+        & .contact-card {
+            
+
+            ul {
+                gap: 20px;
+                flex-direction: column;
+            }
+        }
+    }
+    footer {
+        & #box_social {
+            flex-direction: column;
         }
     }
 }

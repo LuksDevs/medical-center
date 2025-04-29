@@ -563,7 +563,7 @@ header nav {
         & p {
             font-size: 12px;
         }
-        & a {
+        & #btn_our_services {
             align-self: center;
             color: #000;
             background-color: #DAEBEA;
@@ -616,10 +616,8 @@ header nav {
         grid-template-columns: 2fr 1fr;
         gap: 30px;
 
-        & #img_contact {
-            background: url('../image/image08.jpeg') no-repeat center center;
-            background-size: cover;
-            min-height: 600px;
+        & #img_contact img {
+            width: 100%;
         }
         & #box_contact {
             display: flex;
@@ -746,7 +744,12 @@ footer {
         justify-content: flex-end;
         
         & span {
+            cursor: pointer;
             font-size: 20px;
+
+            &:hover {
+                color: var(--color-primary2);
+            }
         }
     }
 }
