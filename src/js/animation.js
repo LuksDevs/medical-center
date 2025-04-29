@@ -10,7 +10,7 @@ ScrollReveal().reveal('.card-icon', {
     }
 });
 
-ScrollReveal().reveal('.card-item, #btn_lab, #img_about, #btn_our_services', {
+ScrollReveal().reveal('.card-item, #btn_lab, #img_about, #btn_our_services, .cards-status', {
     opacity: 0.3,
     duration: 1500,
     scale: 0.8,
@@ -36,13 +36,6 @@ ScrollReveal().reveal('#about_icon, #img_description, #btn_home', {
     duration: 1000
 });
 
-ScrollReveal().reveal('.cards-status', {
-    origin: 'bottom',
-    distance: '70%',
-    duration: 1800,
-    opacity: 0.5,
-    reset: true
-});
 
 ScrollReveal().reveal('.card-more', {
     rotate: {x: 100, y: 0, z: 0},

@@ -6,7 +6,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/media_query.css">
+    <link rel="stylesheet" href="src/css/media_queries.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Medical Center</title>
 </head>
@@ -25,9 +25,9 @@
                 </div>
             </div>
             <button type="button" id="btn_navbar"><i class="fa-solid fa-bars"></i></button>
-            <div class="container-navbar">
+            <div id="container_navbar">
                 <div class="box-navbar">
-                    <button type="button" id="close_navbar"><i class="fa-solid fa-x"></i></button>
+                    <button type="button" id="close_navbar"><i class="fa-solid fa-xmark"></i></button>
                     <ul class="navbar">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a>
@@ -43,8 +43,14 @@
                             <a href="#contact" class="nav-link"><i class="fa-solid fa-phone"></i> Contato</a>
                         </li>
                     </ul>
+                    <div id="social_navbar">
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-whatsapp"></i></span>
+                        <span><i class="fa-brands fa-x-twitter"></i></span>
+                        <span><i class="fa-brands fa-facebook"></i></span>
+                    </div>
                 </div>
-                <div class="blur-black"></div>
+                <div id="blur_black"></div>
             </div>
         </nav>
     </header>
@@ -96,7 +102,7 @@
             <h1 id="title_lab"><i class="fa-solid fa-flask-vial"></i> Testes de Laboratório</h1>
             <div id="img_lab"></div>
         </div>
-        <div id="contet_lab_online">
+        <div id="content_lab_online">
             <div>
                 <h2>Testes de laboratório online</h2>
                 <p>Facilitamos o acesso aos seus exames com nossos testes laboratoriais online. Com segurança, agilidade e precisão, você pode agendar coletas, acessar resultados e acompanhar seu histórico de exames diretamente pela plataforma digital, sem sair de casa. Nosso sistema integrado garante confiabilidade nos diagnósticos e praticidade para que você tenha total controle sobre sua saúde.</p>
@@ -156,8 +162,7 @@
         <h1 id="title_more">Sistema Medical Center</h1>
         <p id="description_more">Com o sistema do Medical Center, você agenda consultas, acessa resultados de exames e acompanha seu histórico médico em um só lugar. Tudo com segurança, praticidade e suporte personalizado.</p>
 
-        <div id="cards_more">
-            
+        <div id="cards_more"> 
             <div class="card-more">
                 <img src="src/image/image04.jpg" alt="Medical Center cards" class="card-more-image">
                 <div class="card-more-description">
@@ -165,7 +170,6 @@
                     <p>Atendimento humanizado em cada etapa do seu cuidado.</p>
                 </div>
             </div>
-
             <div class="card-more">
                 <img src="src/image/image05.jpg" alt="Medical Center cards" class="card-more-image">
                 <div class="card-more-description">
