@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/media_queries.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
     <title>Medical Center</title>
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html">
-                <img src="src/image/logo.png" alt="Mecical Center Logo" class="img-logo">
+                <img src="src/image/logo.png" alt="Medical Center Logo" class="img-logo" loading="lazy">
             </a>
             <div>
                 <div class="box-search">
                 <input type="text" id="input_search" placeholder="Search">
-                <button type="button" id="btn_search">
+                <button type="button" id="btn_search" aria-label="Buscar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
                 </div>
@@ -123,11 +123,11 @@
             <h2 id="title_about">24/7</h2>
             <div id="box_about">
                 <p>O Medical Center é referência em cuidado, tecnologia e atendimento humanizado. Aqui, cada detalhe é pensado para oferecer conforto, segurança e excelência em saúde. Nossa equipe é formada por profissionais experientes e dedicados, prontos para cuidar de você e de quem você ama com atenção e responsabilidade. Escolher o Medical Center é optar por confiança, qualidade e bem-estar.</p>
-                <img src="src/image/image09.jpg" alt="Medical Center Sobre" id="img_about">
+                <img src="src/image/image09.jpg" alt="Medical Center Sobre" id="img_about" loading="lazy">
             </div>            
         </div>
         <div id="about_description">
-            <img id="img_description" src="src/image/image10.jpg" alt="Medical Center Descrição">
+            <img id="img_description" src="src/image/image10.jpg" alt="Medical Center Descrição" loading="lazy">
             <span id="about_icon"></span>
             <p>No Medical Center, você encontra tudo o que precisa em um só lugar: exames, consultas e cuidados especializados, com agilidade e respeito ao seu tempo.</p>
         </div>
@@ -144,7 +144,7 @@
             <p class="description-status">Anos de prática focados em oferecer saúde com qualidade e confiança.</p>
         </div>
         <div class="cards-status">
-            <h2 class="value-status">110</h2>
+            <h2 class="value-status">2210</h2>
             <p class="title-status">Clientes satisfeitos</p>
             <p class="description-status">
                 Milhares de clientes atendidos com excelência e dedicação.
@@ -164,21 +164,21 @@
 
         <div id="cards_more"> 
             <div class="card-more">
-                <img src="src/image/image04.jpg" alt="Medical Center cards" class="card-more-image">
+                <img src="src/image/image04.jpg" alt="Medical Center cards" class="card-more-image" loading="lazy">
                 <div class="card-more-description">
                     <h3>1</h3>
                     <p>Atendimento humanizado em cada etapa do seu cuidado.</p>
                 </div>
             </div>
             <div class="card-more">
-                <img src="src/image/image05.jpg" alt="Medical Center cards" class="card-more-image">
+                <img src="src/image/image05.jpg" alt="Medical Center cards" class="card-more-image" loading="lazy">
                 <div class="card-more-description">
                     <h3>2</h3>
                     <p>Agilidade e atenção no atendimento a todos os pacientes.</p>
                 </div>
             </div>
             <div class="card-more">
-                <img src="src/image/image06.jpg" alt="Medical Center cards" class="card-more-image">
+                <img src="src/image/image06.jpg" alt="Medical Center cards" class="card-more-image" loading="lazy">
                 <div class="card-more-description">
                     <h3>3</h3>
                     <p>Resultados de exames acessíveis a qualquer hora, de onde você estiver.</p>
@@ -201,37 +201,38 @@
     <section id="resources">
         <div class="cards-resources">
             <span class="icon-resources">
-                <img src="src/svg/heart-pulse-white.svg">
+                <img src="src/svg/heart-pulse-white.svg" loading="lazy">
             </span>
             <p class="title-resources">ECOCARDIOGRAMAS</p>
             <p class="description-resources">Realizamos ecocardiogramas com tecnologia de ponta, proporcionando diagnósticos precisos e seguros para o cuidado do seu coração.</p>
         </div>
         <div class="cards-resources">
             <span class="icon-resources">
-                <img src="src/image/antibiotic.png" width="60px">
+                <img src="src/image/antibiotic.png" width="60px" loading="lazy">
             </span>
             <p class="title-resources">DERMATOLOGIA</p>
             <p class="description-resources">Oferecemos consultas dermatológicas para prevenção, diagnóstico e tratamento de doenças da pele, com atendimento personalizado e de qualidade.</p>
         </div>
         <div class="cards-resources">
             <span class="icon-resources">
-                <img src="src/svg/stethoscope.svg">
+                <img src="src/svg/stethoscope.svg" loading="lazy">
             </span>
             <p class="title-resources">PEDIATRA</p>
-            <p class="description-resources">nossos pediatras oferecem atendimento dedicado à saúde e bem-estar das crianças, com um cuidado atencioso e abordagem personalizada para cada fase do desenvolvimento.</p>
+            <p class="description-resources">Nossos pediatras oferecem atendimento dedicado à saúde e bem-estar das crianças, com um cuidado atencioso e abordagem personalizada para cada fase do desenvolvimento.</p>
         </div>
         <div class="cards-resources">
             <span class="icon-resources">
-                <img src="src/svg/microscope.svg">
+                <img src="src/svg/microscope.svg" loading="lazy">
             </span>
             <p class="title-resources">LABORATÓRIO</p>
             <p class="description-resources">Nosso laboratório oferece uma ampla gama de exames com resultados rápidos e precisos, garantindo a melhor base para o seu tratamento e acompanhamento médico.</p>
         </div>
     </section>
+
     <section id="contact">
         <div id="contact_emphasis">
             <div id="img_contact">
-                <img src="src/image/image08.jpeg">
+                <img src="src/image/image08.jpeg" loading="lazy">
             </div>
             <div id="box_contact">
                 <h2>(21) 2346-451<br>(88) 9108-316</h2>
@@ -260,6 +261,7 @@
             </div>
         </div>
     </section>
+
     <footer>
         <div id="box_credits">
             <h3>Créditos</h3>
@@ -289,7 +291,7 @@
             <span><i class="fa-brands fa-facebook"></i></span>
         </div>
     </footer>
-    <script src="./src/js/animation.js" defer></script>
-    <script type="module" src="./src/js/main.js" defer></script>
+    <script src="./src/js/scrollreveal.js" defer></script>
+    <script src="./src/js/script.js" defer></script>
 </body>
 </html>

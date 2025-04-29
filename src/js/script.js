@@ -1,22 +1,21 @@
+function bindEvents() {
+    const btnNavbar = document.querySelector('#btn_navbar');
+    const closeNavbar = document.querySelector('#close_navbar');
+    const blurBlack = document.querySelector('#blur_black');
 
-export function bindEvents() {
-    document.querySelector('#btn_navbar').addEventListener('click', openNavBar);
-    document.querySelector('#close_navbar').addEventListener('click', closeNavBar);
-    document.querySelector('#blur_black').addEventListener('click', closeNavBar);
+    btnNavbar.addEventListener('click', openNavBar);
+    closeNavbar.addEventListener('click', closeNavBar);
+    blurBlack.addEventListener('click', closeNavBar);
 }
 
 function openNavBar() {
-    document.querySelector('#container_navbar').classList.toggle('active');
+    const containerNavbar = document.querySelector('#container_navbar');
+    containerNavbar.classList.add('active');
 }
 
 function closeNavBar() {
-    document.querySelector('#container_navbar').classList.toggle('active');
+    const containerNavbar = document.querySelector('#container_navbar');
+    containerNavbar.classList.remove('active');
 }
 
-// function updateNavbar() {
-//     if(window.innerWidth > 900){
-//         document.querySelector('.container-navbar').removeAttribute('style');
-//     }
-// }
-// window.addEventListener('resize', updateNavbar);
-
+bindEvents();
