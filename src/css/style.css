@@ -17,11 +17,12 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-
+body {
+    overflow-x: hidden;
+}
 header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
-    overflow-x: hidden;
 }
 
 header nav {
