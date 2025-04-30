@@ -26,7 +26,7 @@ Este projeto é um site responsivo e interativo para um **Centro Médico**, dese
 ## 🧑‍💻 Autor
 
 Desenvolvido por *Lucas Ferreira* como parte de **estudos de desenvolvimento web.**
-- 📫 Contato: seuemail@exemplo.com
+- 📫 Contato: LuksDevs@outlook.com.br
 - 🔗 GitHub: @LuksDevs
 
 ---
